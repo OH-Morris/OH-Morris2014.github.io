@@ -201,10 +201,18 @@ function init() {
         zoom: 15,
         zoomControl: true,
         zoomControlOptions: {
-            style:google.maps.ZoomControlStyle.DEFAULT,
+            style:google.maps.ZoomControlStyle.SMALL,
         },
         disableDoubleClickZoom: true,
+        panControl: true,
+        panControlOptions: {
+            position: google.maps.ControlPosition.TOP_RIGHT
+        },
         mapTypeControl: true,
+        mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+            position: google.maps.ControlPosition.BOTTOM_CENTER
+        },
         mapTypeControlOptions: {
             style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
         },
