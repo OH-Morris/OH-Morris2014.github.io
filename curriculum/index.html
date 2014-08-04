@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OpenHatch at $SCHOOL | Open Source Comes To Campus</title>
+    <title>OpenHatch at University of MN - Morris | Open Source Comes To Campus</title>
     <link rel="stylesheet" href="../css/foundation.css" />
     <link rel="stylesheet" href="../css/animate.min.css" />
     <link rel="stylesheet" href="../css/custom.css" />
@@ -105,7 +105,7 @@ var map;
 
 function init() {
     var mapOptions = {
-        center: new google.maps.LatLng(38.537019,-121.754811),
+        center: new google.maps.LatLng(45.590063, -95.902841),
         zoom: 15,
         zoomControl: true,
         zoomControlOptions: {
@@ -132,7 +132,7 @@ function init() {
     var mapElement = document.getElementById('map');
     var map = new google.maps.Map(mapElement, mapOptions);
     var locations = [
-        ['Kemper Hall', 38.5370187, -121.7548109]
+        ['Student Center', 45.590063, -95.902841]
     ];
 
     for (i = 0; i < locations.length; i++) {
